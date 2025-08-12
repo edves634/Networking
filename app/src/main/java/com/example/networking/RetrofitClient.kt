@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
     private const val BASE_URL = "https://api.themoviedb.org/3/"
-    private const val API_KEY = "ВАШ_API_КЛЮЧ" // Замените на реальный ключ
+    private const val API_KEY = "2ca52ef5247f1c9d9553c5e1c113dc2d" // Замените на реальный ключ
 
     private val logger = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BASIC
